@@ -96,7 +96,7 @@ function performCalculation(){
         result: result
     }
 
-    putHistory();
+    putHistory(history);
     calculator.displayNumber = result;
     renderHistory();
 }
